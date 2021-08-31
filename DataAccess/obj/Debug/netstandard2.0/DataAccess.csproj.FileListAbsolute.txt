@@ -1,0 +1,9 @@
+D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

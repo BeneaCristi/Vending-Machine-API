@@ -1,0 +1,27 @@
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\OMEN\Desktop\Vending Machine\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\bin\Debug\netcoreapp3.1\VendingMachineDomain.dll
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\bin\Debug\netcoreapp3.1\VendingMachineDomain.pdb
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\OMEN\Desktop\Vending Machine API\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache

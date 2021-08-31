@@ -1,0 +1,12 @@
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\obj\Debug\netcoreapp3.1\VendingMachineDomain.AssemblyInfoInputs.cache
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\obj\Debug\netcoreapp3.1\VendingMachineDomain.AssemblyInfo.cs
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\obj\Debug\netcoreapp3.1\VendingMachineDomain.csproj.CoreCompileInputs.cache
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\bin\Debug\netcoreapp3.1\VendingMachineDomain.deps.json
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\bin\Debug\netcoreapp3.1\VendingMachineDomain.runtimeconfig.json
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\bin\Debug\netcoreapp3.1\VendingMachineDomain.runtimeconfig.dev.json
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\bin\Debug\netcoreapp3.1\VendingMachineDomain.dll
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\bin\Debug\netcoreapp3.1\VendingMachineDomain.pdb
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\obj\Debug\netcoreapp3.1\VendingMachineDomain.dll
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\obj\Debug\netcoreapp3.1\VendingMachineDomain.pdb
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\obj\Debug\netcoreapp3.1\VendingMachineDomain.genruntimeconfig.cache
+C:\Users\OMEN\Desktop\Vending Machine API\VendingMachineDomain\obj\Debug\netcoreapp3.1\VendingMachineDomain.csproj.AssemblyReference.cache

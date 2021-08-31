@@ -1,0 +1,278 @@
+[2021-04-28 18:10:31,816] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-04-28 18:10:34,865] INFO iQuest.VendingMachine.UseCases.UseCaseList.LookUseCase - User looked in the machine
+
+[2021-04-28 18:10:41,082] INFO iQuest.VendingMachine.UseCases.UseCaseList.LoginUseCase - User logged in
+
+[2021-04-28 18:10:43,333] INFO iQuest.VendingMachine.UseCases.UseCaseList.LogoutUseCase - User logged out
+
+[2021-04-28 18:10:48,674] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-04-28 18:10:48,911] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-04-28 18:10:53,194] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-04-28 18:10:53,464] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-04-28 18:10:58,058] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-04-28 18:10:58,491] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-04-28 18:11:03,142] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - iQuest.VendingMachine.Exceptions.CancelledPaymentException: The PAYMENT is CANCELLED
+   at iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase.Execute(Single price, String name) in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\PaymentUseCase.cs:line 57
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 36
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 36
+
+[2021-04-28 18:11:06,416] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InvalidProductIdException: The id entered is incorect
+   at DataAccess.Repositories.LiteDBRepository.GetById(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 55
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 32
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 36
+
+[2021-04-28 18:11:19,497] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - iQuest.VendingMachine.Exceptions.TooMuchMoneyException: You are too RICH , go buy your own Vending Machine
+   at iQuest.VendingMachine.Payment.Services.CashPayment.Run(Single price, String name) in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\Payment\Services\CashPayment.cs:line 23
+   at iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase.Execute(Single price, String name) in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\PaymentUseCase.cs:line 62
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 36
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 36
+
+[2021-04-28 18:12:08,666] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-04-28 18:12:09,185] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InsufficientStockException: 
+We don't have any more Cola in stock !
+   at DataAccess.Repositories.LiteDBRepository.DecrementStock(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 42
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 39
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 36
+
+[2021-04-28 18:12:15,191] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - Confirmation was cancelled
+
+[2021-04-28 18:12:15,191] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-04-28 18:12:34,614] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - Confirmation was cancelled
+
+[2021-04-28 18:12:34,615] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-04-28 18:12:40,490] INFO iQuest.VendingMachine.UseCases.UseCaseList.LoginUseCase - User logged in
+
+[2021-05-01 16:47:03,599] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-01 16:49:50,595] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-01 16:57:17,722] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-01 16:57:22,040] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 16:57:22,915] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 16:57:26,943] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 16:57:27,346] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 16:57:31,440] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 16:57:32,056] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 16:57:36,359] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 16:57:37,571] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InsufficientStockException: 
+We don't have any more Cola in stock !
+   at DataAccess.Repositories.LiteDBRepository.DecrementStock(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 42
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 39
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:02:31,337] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-01 17:02:41,576] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:02:41,838] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:02:45,943] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:02:46,320] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:02:49,623] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:02:50,025] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:02:54,127] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:02:54,685] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InsufficientStockException: 
+We don't have any more Cola in stock !
+   at DataAccess.Repositories.LiteDBRepository.DecrementStock(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 42
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 39
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:06:58,610] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-01 17:07:09,920] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - iQuest.VendingMachine.Exceptions.CancelledPaymentException: The PAYMENT is CANCELLED
+   at iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase.Execute(Single price, String name) in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\PaymentUseCase.cs:line 57
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 36
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:07:23,417] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - Confirmation was cancelled
+
+[2021-05-01 17:07:23,418] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:07:27,579] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InvalidProductIdException: The id entered is incorect
+   at DataAccess.Repositories.LiteDBRepository.GetById(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 55
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 32
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:23:27,920] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-01 17:23:31,550] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InvalidProductIdException: The id entered is incorect
+   at DataAccess.Repositories.LiteDBRepository.GetById(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 55
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 32
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:48:51,017] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-01 17:48:55,589] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:48:56,025] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:48:59,733] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:48:59,944] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:49:04,207] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - Confirmation was cancelled
+
+[2021-05-01 17:49:04,207] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:49:10,309] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:49:10,516] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:49:14,132] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:49:14,526] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InsufficientStockException: 
+We don't have any more Cola in stock !
+   at DataAccess.Repositories.LiteDBRepository.DecrementStock(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 42
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 39
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:49:17,767] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InvalidProductIdException: The id entered is incorect
+   at DataAccess.Repositories.LiteDBRepository.GetById(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 55
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 32
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:49:32,890] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-01 17:49:37,039] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InvalidProductIdException: The id entered is incorect
+   at DataAccess.Repositories.LiteDBRepository.GetById(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 55
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 32
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:49:45,141] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:49:45,380] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:49:49,133] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:49:49,688] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:49:53,140] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:49:54,655] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:49:58,661] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User payed
+
+[2021-05-01 17:49:59,721] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InsufficientStockException: 
+We don't have any more Cola in stock !
+   at DataAccess.Repositories.LiteDBRepository.DecrementStock(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 42
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 39
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:50:19,507] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - Confirmation was cancelled
+
+[2021-05-01 17:50:19,508] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-01 17:51:38,881] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-01 17:51:44,479] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - iQuest.VendingMachine.Services.Authentication.InvalidPasswordException: Invalid password
+   at iQuest.VendingMachine.Services.Authentication.AuthenticationService.Login(String password) in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\Services\Authentication\AuthenticationService.cs:line 14
+   at iQuest.VendingMachine.UseCases.UseCaseList.LoginUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\LoginUseCase.cs:line 27
+   at iQuest.VendingMachine.PresentationLayer.Commands.LogInCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\LogInCommand.cs:line 28
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:51:47,671] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InvalidProductIdException: The id entered is incorect
+   at DataAccess.Repositories.LiteDBRepository.GetById(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 55
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 32
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:51:57,865] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - iQuest.VendingMachine.Services.Authentication.InvalidPasswordException: Invalid password
+   at iQuest.VendingMachine.Services.Authentication.AuthenticationService.Login(String password) in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\Services\Authentication\AuthenticationService.cs:line 14
+   at iQuest.VendingMachine.UseCases.UseCaseList.LoginUseCase.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\UseCases\UseCaseList\LoginUseCase.cs:line 27
+   at iQuest.VendingMachine.PresentationLayer.Commands.LogInCommand.Execute() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\PresentationLayer\Commands\LogInCommand.cs:line 28
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in C:\Users\OMEN\Desktop\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-01 17:52:03,942] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - Confirmation was cancelled
+
+[2021-05-01 17:52:03,943] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User bought a product
+
+[2021-05-02 08:40:59,019] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-02 08:41:09,536] INFO iQuest.VendingMachine.UseCases.UseCaseList.LookUseCase - User looked in the machine
+
+[2021-05-02 08:41:16,619] INFO iQuest.VendingMachine.UseCases.UseCaseList.LoginUseCase - User logged in
+
+[2021-05-02 11:12:38,760] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-02 11:12:42,068] INFO iQuest.VendingMachine.UseCases.UseCaseList.LookUseCase - User LOOKED in the machine
+
+[2021-05-02 11:12:49,689] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User PAYED for Snickers
+
+[2021-05-02 11:12:50,250] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User BOUGHT a Snickers
+
+[2021-05-02 11:12:57,717] INFO iQuest.VendingMachine.UseCases.UseCaseList.LoginUseCase - User LOGGED IN
+
+[2021-05-02 11:13:02,801] INFO iQuest.VendingMachine.UseCases.UseCaseList.LogoutUseCase - User LOGGED OUT
+
+[2021-05-02 11:17:14,344] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-02 11:18:09,071] INFO iQuest.VendingMachine.UseCases.UseCaseList.LoginUseCase - User LOGGED IN
+
+[2021-05-06 12:20:25,410] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-06 12:20:30,239] INFO iQuest.VendingMachine.UseCases.UseCaseList.LookUseCase - User LOOKED in the machine
+
+[2021-05-06 12:20:35,100] INFO iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase - User PAYED for Cola
+
+[2021-05-06 12:20:36,168] INFO iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase - User BOUGHT a Cola
+
+[2021-05-06 12:20:40,724] INFO iQuest.VendingMachine.UseCases.UseCaseList.LoginUseCase - User LOGGED IN
+
+[2021-05-06 12:20:43,187] INFO iQuest.VendingMachine.UseCases.UseCaseList.LogoutUseCase - User LOGGED OUT
+
+[2021-05-06 12:20:46,128] INFO iQuest.VendingMachine.UseCases.UseCaseList.ExitUseCase - Application Closed
+
+[2021-05-06 12:21:16,710] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-06 12:28:25,150] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-06 12:28:33,862] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - DataAccess.Exceptions.InvalidProductIdException: The id entered is incorect
+   at DataAccess.Repositories.LiteDBRepository.GetById(Int32 id) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\DataAccess\Repositories\LiteDBRepository.cs:line 55
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 32
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
+[2021-05-06 12:29:13,250] INFO iQuest.VendingMachine.ProgramConfiguration.Program - Application Started
+
+[2021-05-06 12:29:20,226] ERROR iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication - iQuest.VendingMachine.Exceptions.CancelledPaymentException: The PAYMENT is CANCELLED
+   at iQuest.VendingMachine.UseCases.UseCaseList.PaymentUseCase.Execute(Single price, String name) in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\VendingMachine\UseCases\UseCaseList\PaymentUseCase.cs:line 57
+   at iQuest.VendingMachine.UseCases.UseCaseList.BuysUseCase.Execute() in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\VendingMachine\UseCases\UseCaseList\BuysUseCase.cs:line 36
+   at iQuest.VendingMachine.PresentationLayer.Commands.BuyCommand.Execute() in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\VendingMachine\PresentationLayer\Commands\BuyCommand.cs:line 33
+   at iQuest.VendingMachine.ProgramConfiguration.VendingMachineApplication.Run() in D:\Programing\BitBucket\Remote Learning\Homework5\Vending Machine\VendingMachine\ProgramConfiguration\VendingMachineApplication.cs:line 38
+
